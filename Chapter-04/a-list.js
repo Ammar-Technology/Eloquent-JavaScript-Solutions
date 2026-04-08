@@ -22,3 +22,10 @@ function ListToarray(list) {
     return Array;
 
 }
+
+function prepend(element, list) {
+    return {
+        value: element,
+        rest: list
+    } ;
+}
