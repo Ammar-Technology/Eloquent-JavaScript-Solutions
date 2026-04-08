@@ -11,3 +11,14 @@ function arrayToList(Array) {
     }
     return list;
 }
+
+function ListToarray(list) {
+    let Array = [];
+    for (let node = list; node != null; node = node.rest) {
+
+        Array.push(node.value)
+
+    }
+    return Array;
+
+}
