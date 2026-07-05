@@ -16,5 +16,5 @@ console.log(flatteningArray(container, arrays1));
 
 // The correct solution that meets the requirements
 let arrays2 = [[1, 2, 3], [4, 5], [6]];
-let ruslt = arrays2.reduce((x,y) => x.concat(y), []);
-console.log(ruslt);
+let result = arrays2.reduce((x,y) => x.concat(y), []);
+console.log(result);
